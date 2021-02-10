@@ -1,5 +1,5 @@
 class Translation(object):
-    START_MSG = "<b>Hello: {}\nI am a Simple Bot can Forward The Files You Send to Me to your Channels</b>"
+    START_MSG = "<b>Hello: {}\nI am a Simple Bot that can Forward messages to your Channels</b>"
     HELP = "1️⃣ <b>Select any of the channels from 1 to 5 to set a default channel to forward messages.</b>\n\n" \
            "2️⃣ <b>Replay 👉 /send command to any Telegram media to forward the message to default channel." \
            "</b>\n\n3️⃣  <b>Select command 👉 /view to view the default forwarding channel.</b>\n\n" \
