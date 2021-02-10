@@ -26,16 +26,14 @@
         "CHANNEL5_NAME": {"description": "Enter the channel5 name", "required": false},
         "ENV": {"description": "Set this to ANYTHING","value": "ANYTHING"}
     },
-    "addons": [],
     "buildpacks": [
-        {
-            "url": "heroku/python"
-        }
-    ],
+        {"url": "heroku/python"}
+        ],
     "formation": {
         "worker": {
             "quantity": 1,
             "size": "free"
         }
-    }
+    },
+    "stack": "heroku-20"
 }
