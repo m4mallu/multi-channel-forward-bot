@@ -14,6 +14,7 @@
         "TG_BOT_TOKEN": {"description": "Your Bot Token", "required": true},
         "APP_ID": {"description": "Your APP ID", "required": true},
         "API_HASH": {"description": "Your API Hash", "required": true},
+        "AUTH_USERS": {"description": "Auth users of your bot make space in between multiples", "required": true},
         "CHANNEL1_ID": {"description": "Your Channel1 Id start with -100", "required": true},
         "CHANNEL1_NAME": {"description": "Enter the channel1 name", "required": true},
         "CHANNEL2_ID": {"description": "Your Channel2 Id start with -100", "required": false},
