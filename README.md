@@ -45,7 +45,7 @@ CHANNEL5_NAME - Name of your channel (Optional)
 
 ### Deploying on Heroku (Easy Way):
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://m4mallu/multi-channel-forward-bot)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/m4mallu/multi-channel-forward-bot)
 
 ### On Linux PCs or VPS (Legendary Way):
 - Create a ```config.py``` file with the environment variables.
