@@ -1,5 +1,5 @@
 # Multi Channel Forward Bot
-A Simple Bot To Forward Messages multiple channels.
+A Simple Bot which forwards Messages to multiple channels.
 
 ### Help
 
@@ -14,7 +14,7 @@ A Simple Bot To Forward Messages multiple channels.
 /start - Start Message
 /help - Help Message
 
-/send - Send the replied message to the default channel(As a eply to any telegram message)
+/send - Send the replied message to the default channel(As a reply to any telegram message)
 /view - View the deault channel
 /channel1 - Set channel 1 as default forwaring channel (Optional)
 /channel2 - Set channel 2 as default forwaring channel (Optional)
