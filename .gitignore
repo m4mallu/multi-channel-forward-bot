@@ -1,0 +1,172 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+.gitattributes
+.git/
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+YouTubeThumb/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# celery beat schedule file
+celerybeat-schedule
+#git pull files
+unknown_errors.txt
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+.idea
+.gitattributes
+env/
+venv/
+VENV/
+ENV/
+downloads/
+sample_video/
+Screenshots/
+thumbnails/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+# Byte-compiled / optimized / DLL files
+
+# C extensions
+
+# Distribution / packaging
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+
+# Installer logs
+
+# Unit test / coverage reports
+
+# Translations
+
+# Django stuff:
+
+# Flask stuff:
+
+# Scrapy stuff:
+
+# Sphinx documentation
+
+# PyBuilder
+
+# Jupyter Notebook
+
+# pyenv
+
+# celery beat schedule file
+
+# SageMath parsed files
+
+# Environments
+
+# Spyder project settings
+
+# Rope project settings
+
+# mkdocs documentation
+
+# mypy
+
+config.py
+intermediabot.session
+
+# to store the downloaded files
+/DOWNLOADS
+*.session
+*.session*
+*.DB
+
+credential.json
+client_secrets.json

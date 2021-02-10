@@ -1,0 +1,41 @@
+{
+    "name": "multi-channel-forward-bot",
+    "description": "A simple Message Forwarder Bot to custom channels",
+    "keywords": [
+        "telegram",
+        "multiple",
+        "channel",
+        "forward",
+        "robot"
+    ],
+    "website": "https://github.com/m4mallu/multi-channel-forward-bot",
+    "repository": "https://github.com/m4mallu/multi-channel-forward-bot",
+    "env": {
+        "TG_BOT_TOKEN": {"description": "Your Bot Token", "required": true},
+        "APP_ID": {"description": "Your APP ID", "required": true},
+        "API_HASH": {"description": "Your API Hash", "required": true},
+        "CHANNEL1_ID": {"description": "Your Channel1 Id start with -100", "required": true},
+        "CHANNEL1_NAME": {"description": "Enter the channel1 name", "required": true},
+        "CHANNEL2_ID": {"description": "Your Channel2 Id start with -100", "required": false},
+        "CHANNEL2_NAME": {"description": "Enter the channel2 name", "required": false},
+        "CHANNEL3_ID": {"description": "Your Channel3 Id start with -100", "required": false},
+        "CHANNEL3_NAME": {"description": "Enter the channel3 name", "required": false},
+        "CHANNEL4_ID": {"description": "Your Channel4 Id start with -100", "required": false},
+        "CHANNEL4_NAME": {"description": "Enter the channel4 name", "required": false},
+        "CHANNEL5_ID": {"description": "Your Channel5 Id start with -100", "required": false},
+        "CHANNEL5_NAME": {"description": "Enter the channel5 name", "required": false},
+        "ENV": {"description": "Set this to ANYTHING","value": "ANYTHING"}
+    },
+    "addons": [],
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
