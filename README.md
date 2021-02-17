@@ -1,11 +1,11 @@
 # Multi Channel Forward Bot
-A Simple Bot which forwards Messages to multiple channels.
+A Simple Bot which forwards Messages /media to multiple channels.
 
 ### Help
 
 - **Bot need to be an admin of the channel with 'post message' privilege.**
 - 5 channels can be added to the bot for forwarding. Channel1 is mandatory while the others are optionals.
-- select the required channel to set a default channel by the command ```/channel1```   to    ```/channel``` .
+- select the required channel to set a default channel by the command ```/channel1```   to    ```/channel5``` .
 - Reply to the telegram media with ```/send``` command to forward.
 - Give ```/view``` command to view the present default channel selected for forwarding.
 
