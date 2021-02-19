@@ -25,7 +25,7 @@ async def channel1(bot, update):
     if not channel_id:
         await bot.delete_messages(chat_id=update.chat.id, message_ids=update.message_id)
         a = await bot.send_message(chat_id=update.chat.id, text=Translation.INVALID_CHANNEL)
-        time.sleep(5)
+        time.sleep(10)
         await a.delete()
     else:
         channel[id] = int(channel_id)
@@ -51,7 +51,7 @@ async def channel2(bot, update):
     if not channel_id:
         await bot.delete_messages(chat_id=update.chat.id, message_ids=update.message_id)
         a = await bot.send_message(chat_id=update.chat.id, text=Translation.INVALID_CHANNEL)
-        time.sleep(5)
+        time.sleep(10)
         await a.delete()
     else:
         channel[id] = int(channel_id)
@@ -77,7 +77,7 @@ async def channel3(bot, update):
     if not channel_id:
         await bot.delete_messages(chat_id=update.chat.id, message_ids=update.message_id)
         a = await bot.send_message(chat_id=update.chat.id, text=Translation.INVALID_CHANNEL)
-        time.sleep(5)
+        time.sleep(10)
         await a.delete()
     else:
         channel[id] = int(channel_id)
@@ -103,7 +103,7 @@ async def channel4(bot, update):
     if not channel_id:
         await bot.delete_messages(chat_id=update.chat.id, message_ids=update.message_id)
         a = await bot.send_message(chat_id=update.chat.id, text=Translation.INVALID_CHANNEL)
-        time.sleep(5)
+        time.sleep(10)
         await a.delete()
     else:
         channel[id] = int(channel_id)
@@ -129,7 +129,7 @@ async def channel5(bot, update):
     if not channel_id:
         await bot.delete_messages(chat_id=update.chat.id, message_ids=update.message_id)
         a = await bot.send_message(chat_id=update.chat.id, text=Translation.INVALID_CHANNEL)
-        time.sleep(5)
+        time.sleep(10)
         await a.delete()
     else:
         channel[id] = int(channel_id)
